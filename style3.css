@@ -9,9 +9,15 @@ body {
 }
 
 header {
-	background-color: #333;
+	background: rgba(0, 0, 0, 0);
 	color: #fff;
 	padding: 10px;
+}
+
+
+
+h1{
+	color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -77,4 +83,15 @@ h2 {
 
 .car p {
 	margin: 0;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
 }
