@@ -1,0 +1,78 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    background-color: #ffdada;
+}
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(33, 33, 33) inset;
+    transition: 0.2s;
+    width: 150px;
+}
+
+
+a.button7:hover {
+    background: rgb(53, 167, 110);
+    width: 150px;
+}
+a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+    width: 150px;
+}
+
+.button7 {
+    position: relative;
+    top: 50%;
+}
+
+#main-text {
+    font-size: 60px;
+    font-style: italic;
+    font-family: Georgia, sans-serif;
+}
+
+.first_image {
+    width: 100%;
+}
+
+h6{
+    font-size: 20px;
+}
+
+
+
+.content {
+    margin-top: 60px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
