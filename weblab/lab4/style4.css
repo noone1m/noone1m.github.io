@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #404d40;
+}
+
+h1, h2, p, li {
+    color: white;
+    text-shadow: 0 0 5px #ffffff;
+
+}
+
+a.PAGE1 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(33, 33, 33) inset;
+    transition: 0.2s;
+}
+
+a.PAGE1:hover { background: rgb(53, 167, 110); }
+a.PAGE1:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.Beethoven_img{
+    width: 30%;
+    float:left;
+    margin: 50px 50px 50px 50px;
+    border-radius: 10px;
+    border: 5px solid #586b58;
+    box-shadow: 2px 1px 5px #212121;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
